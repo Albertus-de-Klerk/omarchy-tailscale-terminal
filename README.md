@@ -24,3 +24,11 @@ omarchy restart shell
 `j`/`k` move · `enter` activate · `o` open terminal · `t` toggle Tailscale · `c` copy IP · `n` copy name · `d` copy DNS name · `s` send files · `r` refresh · `esc` close
 
 Tested on Omarchy 4.5.0.
+
+## Remove
+
+```bash
+omarchy plugin remove albertus.tailscale
+omarchy plugin enable omarchy.tailscale
+omarchy restart shell
+```
